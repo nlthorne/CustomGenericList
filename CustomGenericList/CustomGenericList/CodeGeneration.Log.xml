@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-09-28T08:23:12" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Diagnostic" Text="ProjectPath = ..\CustomGenericListLib\CustomGenericListLib.csproj" />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-09-28T08:23:13" Importance="Medium" Text="CustomGenericList's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'CustomGenericList::Program' -  (Class), 'CustomGenericList::GenericList' -  (Class), 'CustomGenericList::StringList' -  (Class), 'CustomGenericList::NumberList' -  (Class) " />
+  <Message Timestamp="2016-09-28T08:23:50" Importance="Medium" Text="Project Added: C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomGenericList\CustomGenericListLib\CustomGenericListLib.csproj" />
+  <Message Timestamp="2016-09-28T08:23:50" Importance="Medium" Text="'CustomGenericList::Program' -  (Class) : success (file created) - C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomGenericList\CustomGenericListLib\GeneratedCode\Program.cs" />
+  <Message Timestamp="2016-09-28T08:23:51" Importance="Medium" Text="'CustomGenericList::GenericList' -  (Class) : success (file created) - C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomGenericList\CustomGenericListLib\GeneratedCode\GenericList.cs" />
+  <Message Timestamp="2016-09-28T08:23:51" Importance="Medium" Text="'CustomGenericList::StringList' -  (Class) : success (file created) - C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomGenericList\CustomGenericListLib\GeneratedCode\StringList.cs" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Medium" Text="'CustomGenericList::NumberList' -  (Class) : success (file created) - C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomGenericList\CustomGenericListLib\GeneratedCode\NumberList.cs" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="ProjectPath = ..\CustomGenericListLib\CustomGenericListLib.csproj" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Medium" Text="CustomGenericList's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'CustomGenericList::IEnumberable' -  (Interface) " />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Medium" Text="'CustomGenericList::IEnumberable' -  (Interface) : success (file created) - C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomGenericList\CustomGenericListLib\GeneratedCode\IEnumberable.cs" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="ProjectPath = ..\CustomGenericListLib\CustomGenericListLib.csproj" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Medium" Text="CustomGenericList's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'CustomGenericList::Program' -  (Class), 'CustomGenericList::GenericList' -  (Class), 'CustomGenericList::StringList' -  (Class), 'CustomGenericList::NumberList' -  (Class) " />
+  <Message Timestamp="2016-09-28T08:23:52" Importance="Diagnostic" Text="'CustomGenericList::Program' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="Diagnostic" Text="'CustomGenericList::GenericList' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="Diagnostic" Text="'CustomGenericList::StringList' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="Diagnostic" Text="'CustomGenericList::NumberList' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="Diagnostic" Text="'CustomGenericList::' -  (Association): no bound template." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="Diagnostic" Text="'a14ce044-9599-4571-9e28-ef5d053d82f7' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="Diagnostic" Text="'b2fc9dd7-ad7c-4280-aef5-456936f0142c' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-09-28T08:23:53" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

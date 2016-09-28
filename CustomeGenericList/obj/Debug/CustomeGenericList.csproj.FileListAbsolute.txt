@@ -1,1 +1,6 @@
 C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomeGenericList\CustomeGenericList\bin\Debug\CustomeGenericList.exe.config
+C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomeGenericList\bin\Debug\CustomeGenericList.exe.config
+C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomeGenericList\bin\Debug\CustomeGenericList.exe
+C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomeGenericList\bin\Debug\CustomeGenericList.pdb
+C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomeGenericList\obj\Debug\CustomeGenericList.exe
+C:\Users\nltho\Documents\GitHub\CustomGenericList\CustomeGenericList\obj\Debug\CustomeGenericList.pdb

@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomeGenericList", "CustomeGenericList\CustomeGenericList.csproj", "{2C695982-1A03-4BAE-9D9A-F05DCF5E2B3B}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "CustomGenericList", "..\CustomGenericList\CustomGenericList\CustomGenericList.modelproj", "{D972EFE1-EDB3-406C-9B4B-0E52C3AC8EB2}"
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "CustomGenericList", "CustomGenericList\CustomGenericList\CustomGenericList.modelproj", "{D972EFE1-EDB3-406C-9B4B-0E52C3AC8EB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
