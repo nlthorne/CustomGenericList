@@ -16,9 +16,9 @@ namespace CustomeGenericList
             listOne.AddObject(3);
             listOne.AddObject(4);
             listOne.AddObject(5);
-            listOne.RemoveObject(2);
+            listOne.RemoveObject(5);
             listOne.RemoveObject(4);
-            //listOne.ToString();
+            
 
             GenericList<int> listTwo = new GenericList<int>();
             listTwo.AddObject(1);
@@ -30,7 +30,7 @@ namespace CustomeGenericList
             listTwo.RemoveObject(6);
             listTwo.RemoveObject(8);
             listTwo.RemoveObject(10);
-            //listTwo.ToString();
+            
 
             GenericList<int> listThree = new GenericList<int>();
             GenericList<int> listFour = new GenericList<int>();
@@ -38,10 +38,10 @@ namespace CustomeGenericList
             listThree = listOne + listTwo;
             Console.WriteLine(listThree);
             Console.WriteLine("This is end of list3");
-            //list4 = listOne - listTwo;
-            Console.WriteLine(listOne);
+            listFour = listOne - listTwo;
+            Console.WriteLine(listFour);
             Console.WriteLine("This is end of list4");
-            //Console.WriteLine("Count " + list3.Count);
+           
 
             GenericList<int> ZippedList = new GenericList<int>();
 
