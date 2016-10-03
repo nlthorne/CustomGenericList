@@ -10,29 +10,49 @@ namespace CustomeGenericList
     {
         static void Main(string[] args)
         {
-            GenericList<int> list1 = new GenericList<int>();
-            list1.AddObject(1);
-            list1.AddObject(2);
-            list1.AddObject(3);
-            list1.AddObject(4);
-            list1.AddObject(5);
-            list1.RemoveObject(2);
-            list1.RemoveObject(4);
-            list1.ToString();
+            GenericList<int> listOne = new GenericList<int>();
+            listOne.AddObject(1);
+            listOne.AddObject(2);
+            listOne.AddObject(3);
+            listOne.AddObject(4);
+            listOne.AddObject(5);
+            listOne.RemoveObject(2);
+            listOne.RemoveObject(4);
+            //listOne.ToString();
 
-            GenericList<int> list2 = new GenericList<int>();
-            list2.AddObject(1);
-            list2.AddObject(6);
-            list2.AddObject(7);
-            list2.AddObject(8);
-            list2.AddObject(9);
-            list2.AddObject(10);
-            list2.RemoveObject(6);
-            list2.RemoveObject(8);
-            list2.RemoveObject(10);
-            list2.ToString();
+            GenericList<int> listTwo = new GenericList<int>();
+            listTwo.AddObject(1);
+            listTwo.AddObject(6);
+            listTwo.AddObject(7);
+            listTwo.AddObject(8);
+            listTwo.AddObject(9);
+            listTwo.AddObject(10);
+            listTwo.RemoveObject(6);
+            listTwo.RemoveObject(8);
+            listTwo.RemoveObject(10);
+            //listTwo.ToString();
 
+            GenericList<int> listThree = new GenericList<int>();
+            GenericList<int> listFour = new GenericList<int>();
 
+            listThree = listOne + listTwo;
+            Console.WriteLine(listThree);
+            Console.WriteLine("This is end of list3");
+            //list4 = listOne - listTwo;
+            Console.WriteLine(listOne);
+            Console.WriteLine("This is end of list4");
+            //Console.WriteLine("Count " + list3.Count);
+
+            GenericList<int> ZippedList = new GenericList<int>();
+
+            ZippedList.Zipped(listOne, listTwo);
+
+            foreach (var item in listOne) 
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+            Console.Read();
         }
     }
 }
